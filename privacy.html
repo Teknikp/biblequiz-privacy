@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy · Bible Quiz</title>
+  <meta name="description" content="Privacy policy for the Bible Quiz mobile app." />
+  <style>
+    :root {
+      --bg: #0f1419;
+      --card: #1a2332;
+      --text: #e8eef7;
+      --muted: #9aabbf;
+      --accent: #6ea8fe;
+      --border: #2a3a4f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1c3a5f 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      margin: 0 0 0.25rem;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      color: var(--muted);
+      margin: 0;
+      font-size: 0.95rem;
+    }
+    .lang {
+      display: inline-flex;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      overflow: hidden;
+      background: var(--card);
+    }
+    .lang button {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      padding: 0.45rem 0.9rem;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 600;
+    }
+    .lang button[aria-pressed="true"] {
+      background: var(--accent);
+      color: #0b1220;
+    }
+    article {
+      background: color-mix(in srgb, var(--card) 92%, black);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem 1.35rem;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+    }
+    h2 {
+      font-size: 1.1rem;
+      margin: 1.5rem 0 0.5rem;
+    }
+    h2:first-child { margin-top: 0; }
+    p, li { color: var(--text); }
+    ul { padding-left: 1.2rem; margin: 0.4rem 0 0; }
+    li { margin: 0.35rem 0; }
+    .updated { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; }
+    footer {
+      margin-top: 1.5rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    [hidden] { display: none !important; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Bible Quiz</h1>
+        <p class="sub" data-i18n="tagline">Privacy Policy</p>
+      </div>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" id="btn-en" aria-pressed="true">EN</button>
+        <button type="button" id="btn-fr" aria-pressed="false">FR</button>
+      </div>
+    </header>
+
+    <article id="en" lang="en">
+      <p class="updated">Last updated: November 18, 2026</p>
+
+      <h2>Overview</h2>
+      <p>
+        Bible Quiz (“the App”) is a mobile quiz application. This policy explains what
+        information we collect, how we use it, and your choices. We aim to collect as
+        little personal data as possible.
+      </p>
+
+      <h2>Data we collect</h2>
+      <ul>
+        <li>
+          <strong>Display name</strong> — the name you choose in the App. It is shown to
+          other players in multiplayer rooms and may appear on leaderboards.
+        </li>
+        <li>
+          <strong>Quiz scores and play statistics</strong> — used for your personal
+          history, streaks, daily challenge results, and room/weekly leaderboards.
+        </li>
+        <li>
+          <strong>Anonymous account ID</strong> — we use Firebase Anonymous Authentication.
+          No email address, phone number, or password is required to play.
+        </li>
+        <li>
+          <strong>On-device preferences</strong> — settings such as language, theme, and
+          daily-challenge progress stored locally on your device.
+        </li>
+      </ul>
+      <p>We do <strong>not</strong> ask for your real name, email, phone number, or location.</p>
+
+      <h2>How we use data</h2>
+      <ul>
+        <li>To provide quiz gameplay, statistics, and multiplayer rooms.</li>
+        <li>To show your display name and scores to other players in shared rooms and leaderboards.</li>
+        <li>To operate and improve the App’s reliability (for example, syncing question content).</li>
+      </ul>
+      <p>We do not sell your data. We do not use your data for third-party advertising.</p>
+
+      <h2>Third-party services</h2>
+      <p>
+        The App uses <strong>Google Firebase</strong> (including Authentication, Cloud Firestore,
+        and related Google Cloud infrastructure) to store and sync game data securely.
+        Google processes data according to its own privacy terms for Firebase/Google Cloud.
+      </p>
+
+      <h2>Data storage and retention</h2>
+      <ul>
+        <li>Cloud game data is stored in Firebase associated with your anonymous account.</li>
+        <li>Local preferences and some progress are stored on your device.</li>
+        <li>You can clear local data anytime from <em>Settings → Clear local data</em>.</li>
+      </ul>
+
+      <h2>Children’s privacy</h2>
+      <p>
+        The App is a general Bible knowledge quiz and does not knowingly collect personal
+        information from children beyond an optional display name and gameplay scores.
+        If you believe a child has provided inappropriate personal information, contact us
+        via the Play Store listing and we will delete it when reasonably possible.
+      </p>
+
+      <h2>Your choices</h2>
+      <ul>
+        <li>Choose any display name (avoid sharing real personal details).</li>
+        <li>Clear local data from Settings on your device.</li>
+        <li>Uninstall the App to remove local data from that device.</li>
+      </ul>
+
+      <h2>Changes</h2>
+      <p>
+        We may update this policy from time to time. The “Last updated” date at the top
+        will change when we do. Continued use of the App after changes means you accept
+        the updated policy.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about privacy? Contact us through the
+        <strong>Google Play Store listing</strong> for Bible Quiz.
+      </p>
+    </article>
+
+    <article id="fr" lang="fr" hidden>
+      <p class="updated">Dernière mise à jour : 18 novembre 2026</p>
+
+      <h2>Aperçu</h2>
+      <p>
+        Bible Quiz (« l’Application ») est une application mobile de quiz. Cette politique
+        explique quelles informations nous collectons, comment nous les utilisons et vos
+        choix. Nous cherchons à collecter le moins de données personnelles possible.
+      </p>
+
+      <h2>Données collectées</h2>
+      <ul>
+        <li>
+          <strong>Nom d’affichage</strong> — le nom que vous choisissez dans l’Application.
+          Il est visible par les autres joueurs dans les salons multijoueurs et peut
+          apparaître dans les classements.
+        </li>
+        <li>
+          <strong>Scores et statistiques de jeu</strong> — utilisés pour votre historique,
+          vos séries, le défi du jour et les classements de salon / hebdomadaires.
+        </li>
+        <li>
+          <strong>Identifiant de compte anonyme</strong> — nous utilisons l’authentification
+          anonyme Firebase. Aucune adresse e-mail, numéro de téléphone ni mot de passe n’est
+          requis pour jouer.
+        </li>
+        <li>
+          <strong>Préférences sur l’appareil</strong> — paramètres tels que la langue, le
+          thème et la progression du défi du jour, stockés localement.
+        </li>
+      </ul>
+      <p>Nous ne demandons <strong>pas</strong> votre vrai nom, e-mail, téléphone ou localisation.</p>
+
+      <h2>Utilisation des données</h2>
+      <ul>
+        <li>Pour fournir le jeu, les statistiques et les salons multijoueurs.</li>
+        <li>Pour afficher votre nom et vos scores aux autres joueurs dans les salons et classements.</li>
+        <li>Pour faire fonctionner et améliorer la fiabilité de l’Application (par ex. synchronisation du contenu).</li>
+      </ul>
+      <p>Nous ne vendons pas vos données. Nous ne les utilisons pas pour de la publicité tierce.</p>
+
+      <h2>Services tiers</h2>
+      <p>
+        L’Application utilise <strong>Google Firebase</strong> (Authentification, Cloud Firestore
+        et l’infrastructure Google Cloud associée) pour stocker et synchroniser les données
+        de jeu de façon sécurisée. Google traite ces données selon ses propres conditions
+        de confidentialité Firebase / Google Cloud.
+      </p>
+
+      <h2>Stockage et conservation</h2>
+      <ul>
+        <li>Les données de jeu dans le cloud sont stockées dans Firebase avec votre compte anonyme.</li>
+        <li>Les préférences locales et une partie de la progression sont sur votre appareil.</li>
+        <li>Vous pouvez effacer les données locales à tout moment via <em>Paramètres → Effacer les données locales</em>.</li>
+      </ul>
+
+      <h2>Confidentialité des enfants</h2>
+      <p>
+        L’Application est un quiz biblique général et ne collecte pas sciemment d’informations
+        personnelles auprès d’enfants au-delà d’un nom d’affichage optionnel et des scores.
+        Si vous pensez qu’un enfant a fourni des informations personnelles inappropriées,
+        contactez-nous via la fiche Play Store et nous les supprimerons dans la mesure du possible.
+      </p>
+
+      <h2>Vos choix</h2>
+      <ul>
+        <li>Choisissez n’importe quel nom d’affichage (évitez les informations personnelles réelles).</li>
+        <li>Effacez les données locales depuis les Paramètres de votre appareil.</li>
+        <li>Désinstallez l’Application pour retirer les données locales de cet appareil.</li>
+      </ul>
+
+      <h2>Modifications</h2>
+      <p>
+        Nous pouvons mettre à jour cette politique de temps à autre. La date « Dernière mise
+        à jour » en haut changera alors. Continuer à utiliser l’Application après une
+        modification vaut acceptation de la politique mise à jour.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Des questions sur la confidentialité ? Contactez-nous via la
+        <strong>fiche Google Play Store</strong> de Bible Quiz.
+      </p>
+    </article>
+
+    <footer>
+      Bible Quiz · Privacy Policy / Politique de confidentialité
+    </footer>
+  </div>
+
+  <script>
+    const en = document.getElementById('en');
+    const fr = document.getElementById('fr');
+    const btnEn = document.getElementById('btn-en');
+    const btnFr = document.getElementById('btn-fr');
+    const tagline = document.querySelector('[data-i18n="tagline"]');
+
+    function setLang(lang) {
+      const isFr = lang === 'fr';
+      en.hidden = isFr;
+      fr.hidden = !isFr;
+      btnEn.setAttribute('aria-pressed', String(!isFr));
+      btnFr.setAttribute('aria-pressed', String(isFr));
+      tagline.textContent = isFr ? 'Politique de confidentialité' : 'Privacy Policy';
+      document.documentElement.lang = isFr ? 'fr' : 'en';
+      try { localStorage.setItem('bq_privacy_lang', lang); } catch (_) {}
+      history.replaceState(null, '', isFr ? '#fr' : '#en');
+    }
+
+    btnEn.addEventListener('click', () => setLang('en'));
+    btnFr.addEventListener('click', () => setLang('fr'));
+
+    const fromHash = location.hash.replace('#', '');
+    const fromNav = (navigator.language || '').toLowerCase().startsWith('fr') ? 'fr' : 'en';
+    let initial = 'en';
+    try {
+      initial = localStorage.getItem('bq_privacy_lang') || fromHash || fromNav || 'en';
+    } catch (_) {
+      initial = fromHash || fromNav || 'en';
+    }
+    setLang(initial === 'fr' ? 'fr' : 'en');
+  </script>
+</body>
+</html>
